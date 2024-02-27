@@ -1,8 +1,20 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import { Sofia_Sans } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import '../lib/css/globals.css'
+import Link from 'next/link'
+
+const sofia = Sofia_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+const navigation = [
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
+  { name: 'Blog', href: '/blog' },
+  { name: 'Contact', href: '/contact' },
+]
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +27,48 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={sofia.className}>
+      <body className='mix-blend-hard-light	'>
+        <div className='flex flex-col h-screen'>
+          {/* 
+          Header
+            - Nav
+            - Logo
+          */}
+          <header className='w-full text-center p-4 sticky top-0"'>
+            <nav className="float-left px-8 py-5">
+              <ul className="flex px-8 py-2 space-x-6">
+                {navigation.map((item) => (
+                    <li className="flex-initial whitespace-nowrap text-base font-medium">
+                      <Link key={item.name} href={item.href} >
+                        {item.name}
+                      </Link>
+                    </li>
+                  ))}
+              </ul>
+            </nav>
+            <div className='float-right px-10 py-7'>
+            </div>
+          </header>
+          {/* 
+          Main
+            - Title
+            - Content
+            - CTA
+          */}
+          <main className='text-center'>
+            {children}
+          </main>
+          {/* 
+          Footer
+            - Nav
+            - SNW
+          */}
+          <footer className="w-full text-center p-4 bg-slate-950">
+            <h2>Ready to Dev</h2>
+          </footer>
+        </div>
+      </body>
     </html>
   )
 }
