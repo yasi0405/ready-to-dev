@@ -1,7 +1,8 @@
+"use client"
+
 import {useTranslations} from 'next-intl';
-import Image from 'next/image'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image';
+import LanguageSwitcher from './components/languageSwitcher';
 
 
 export default function Home() {
@@ -11,7 +12,6 @@ export default function Home() {
 
   return (
     <div>
-
       <Image 
         className='mix-blend-lighten inline bg-auto bg-center ' 
         alt='Ready to Dev logo'
@@ -20,7 +20,7 @@ export default function Home() {
         height="515"
       />
       <h1>{t('home.title')}</h1>
-      
+      <LanguageSwitcher />
       <div className='relative aspect-w-16 aspect-h-9 rounded-lg px-56 py-20 bg-white text-stone-900 m-6 text-center align-top'>
         <h2>{t('home.vision1-title')}</h2>
         <p className='big pt-8 pb-12'>{t('home.vision1-description')}</p>
@@ -42,7 +42,6 @@ export default function Home() {
         <h3 className='font-thin text-4xl	'>{t('home.final-copy')}</h3>
           <button>{t('home.cta')}</button>
       </div>
-      
     </div>
   )
 }
