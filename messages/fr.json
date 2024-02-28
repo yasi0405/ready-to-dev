@@ -1,0 +1,38 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "A propos",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "page": {
+    "home": {
+      "title": "Notre vision",
+      "vision1-title": "Valoriser le succès par l'innovation",
+      "vision1-description": "Chez Ready to Dev, notre mission est de permettre aux entreprises d'atteindre leur plein potentiel grâce à des services de conseil en informatique innovants. Nous croyons que la technologie, lorsqu'elle est correctement exploitée, peut changer la donne pour les entreprises de toutes tailles. Notre objectif est de fournir des orientations stratégiques en TI, permettant à nos clients de naviguer dans le monde complexe de la technologie avec aisance et confiance.",
+      "vision2-title": "Engagement envers l'excellence",
+      "vision2-description": "Nous nous engageons à fournir l'excellence dans tous les aspects de nos services. De la consultation initiale à la mise en œuvre des solutions informatiques, notre équipe est dédiée à garantir que tous vos besoins technologiques sont satisfaits avec les normes les plus élevées de qualité. Notre focus est sur la création d'une valeur durable et à long terme pour votre entreprise, vous aidant à non seulement atteindre mais aussi dépasser vos objectifs.",
+      "vision3-title": "Partenariat et collaboration",
+      "vision3-description": "Comprendre que chaque entreprise a des défis et des opportunités uniques, nous mettons l'accent sur une approche collaborative. Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins spécifiques, leurs objectifs et la dynamique de leur industrie. Ce partenariat nous permet d'adapter nos services de conseil pour fournir les solutions les plus efficaces et efficientes.",
+      "vision4-title": "Innovation et adaptation",
+      "vision4-description": "Dans un paysage technologique en rapide évolution, il est essentiel de rester à la pointe. Nous donnons la priorité à l'innovation et à l'apprentissage continu pour garantir que nos clients bénéficient des dernières avancées en TI. Notre équipe est habile à s'adapter aux nouvelles technologies et tendances, garantissant que votre entreprise reste compétitive et sécurisée à l'ère numérique.",
+      "vision5-title": "Votre succès est notre succès",
+      "vision5-description": "En fin de compte, notre mission est de voir nos clients réussir. Vos objectifs sont nos objectifs, et nous nous efforçons de fournir des solutions informatiques qui propulsent votre entreprise vers l'avant. Que vous cherchiez à améliorer l'efficacité opérationnelle, à renforcer la cybersécurité ou à conduire la transformation numérique, Ready to Dev est là pour vous guider à chaque étape du chemin.",
+      "final-copy": "Laissez-nous être votre partenaire dans la navigation du futur de la technologie. Ensemble, nous pouvons accomplir des choses remarquables.",
+      "cta": "Contactez-nous"
+    },    
+    "about": {
+      "title": "À propos",
+      "journey-title": "Notre parcours",
+      "journey-description": "Notre aventure a commencé il y a quelques années, avec la vision de créer un cabinet de conseil qui donne la priorité aux besoins et au succès de ses clients avant tout. Depuis nos humbles débuts, nous sommes devenus un conseiller de confiance pour les entreprises, grandes et petites, développant des solutions qui ne sont pas seulement efficaces, mais aussi durables et visionnaires.",
+      "clients-title": "Nos clients, nos projets",
+      "clients-projects": "Dans le contexte du conseil en TI et des affaires, l'expression 'les projets de nos clients sont nos projets' incarne une philosophie de partenariat profond et d'intérêt investi dans le succès des initiatives des clients. Cette approche met en évidence un engagement à aligner les objectifs, les stratégies et les opérations du conseil étroitement avec ceux de leurs clients, traitant chaque projet comme s'il était le leur. Voici un résumé encapsulant cet ethos :"
+    }, 
+    "blog": {
+      "title": "Blog"
+    },
+    "contact": {
+      "title": "Contact"
+    }
+  }
+}

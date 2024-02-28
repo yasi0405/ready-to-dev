@@ -1,0 +1,38 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "A propos",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "page": {
+    "home": {
+      "title": "Onze visie",
+      "vision1-title": "Succes stimuleren door innovatie",
+      "vision1-description": "Bij Ready to Dev is onze missie om bedrijven in staat te stellen hun volledige potentieel te bereiken door middel van innovatieve IT-consultancydiensten. Wij geloven dat technologie, indien correct ingezet, een gamechanger kan zijn voor bedrijven van alle groottes. Ons doel is om strategische IT-begeleiding te bieden, waardoor onze klanten met gemak en vertrouwen door de complexe wereld van technologie kunnen navigeren.",
+      "vision2-title": "Toewijding aan uitmuntendheid",
+      "vision2-description": "Wij zijn toegewijd aan het leveren van uitmuntendheid in elk aspect van onze diensten. Van de initiële consultatie tot de implementatie van IT-oplossingen, ons team is erop gericht om te zorgen dat aan al uw technologiebehoeften wordt voldaan met de hoogste kwaliteitsnormen. Onze focus ligt op het creëren van duurzame, langetermijnwaarde voor uw bedrijf, om u te helpen niet alleen uw doelen te bereiken, maar deze te overtreffen.",
+      "vision3-title": "Partnerschap en samenwerking",
+      "vision3-description": "Begrijpend dat elk bedrijf unieke uitdagingen en kansen heeft, benadrukken we een samenwerkingsbenadering. We werken nauw samen met onze klanten om hun specifieke behoeften, doelen en de dynamiek van hun industrie te begrijpen. Dit partnerschap stelt ons in staat onze consultancydiensten op maat te maken om de meest effectieve en efficiënte oplossingen te bieden.",
+      "vision4-title": "Innovatie en aanpassing",
+      "vision4-description": "In een snel veranderend technologisch landschap is het essentieel om voorop te blijven lopen. We geven prioriteit aan innovatie en continu leren om ervoor te zorgen dat onze klanten profiteren van de laatste vooruitgang in IT. Ons team is bedreven in het aanpassen aan nieuwe technologieën en trends, zodat uw bedrijf concurrerend en veilig blijft in het digitale tijdperk.",
+      "vision5-title": "Uw succes is ons succes",
+      "vision5-description": "Uiteindelijk is onze missie om onze klanten te zien slagen. Uw doelen zijn onze doelen, en we streven ernaar IT-oplossingen te bieden die uw bedrijf vooruit helpen. Of u nu operationele efficiëntie wilt verbeteren, cybersecurity wilt versterken, of digitale transformatie wilt stimuleren, Ready to Dev is hier om u elke stap van de weg te begeleiden.",
+      "final-copy": "Laat ons uw partner zijn in het navigeren van de toekomst van technologie. Samen kunnen we opmerkelijke dingen bereiken.",
+      "cta": "Neem contact met ons op"
+    },    
+    "about": {
+      "title": "Over",
+      "journey-title": "Onze Reis",
+      "journey-description": "Onze reis begon enkele jaren geleden, met de visie om een adviesbureau te creëren dat de behoeften en het succes van zijn klanten boven alles stelt. Vanaf onze bescheiden begin hebben we ons ontwikkeld tot een vertrouwde adviseur voor zowel grote als kleine bedrijven, waarbij we oplossingen ontwikkelen die niet alleen effectief zijn, maar ook duurzaam en toekomstgericht.",
+      "clients-title": "Onze klanten, onze projecten",
+      "clients-projects": "In de context van IT-consultancy en zaken, belichaamt de uitdrukking 'de projecten van onze klanten zijn onze projecten' een filosofie van diepe partnerschap en een geïnvesteerd belang in het succes van klantinitiatieven. Deze benadering benadrukt een toewijding aan het nauwkeurig afstemmen van de doelstellingen, strategieën en operaties van het adviesbureau met die van hun klanten, waarbij elk project wordt behandeld alsof het hun eigen is. Hier is een samenvatting die dit ethos omvat:"
+    },   
+    "blog": {
+      "title": "Blog"
+    },
+    "contact": {
+      "title": "Contact"
+    }
+  }
+}

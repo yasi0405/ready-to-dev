@@ -9,13 +9,11 @@ body {
   overflow-x: hidden;
   margin: 0;
   color: white;
+  position: relative;
 }
 
 body {
   background-color: #001D32;
-  background-image: url(../img/main_bg.svg);
-  background-repeat: no-repeat;
-  background-position: right top;
 }
 
 h1 {
@@ -37,24 +35,26 @@ a {
 }
 
  
- header,
- footer {
-   height: 100px;
+footer {
+   height: 500px;
  }
  
  header {
    position: sticky;
    top: 0;
+   height: 100px;
  }
  
  section {
      display: block;
  }
- 
- .rtd_main_logo {
-  background-image: url(../img/readytodev_logo_white.png);
+
+ .bg-home {
+  mix-blend-mode: hard-light;
+  background-image: url(../img/main_bg.svg);
   background-repeat: no-repeat;
-  background-position: center top;
-  height: 515px;
-  mix-blend-mode: lighten;
-}
+  background-position: right top;
+  right: 15px;
+  position: fixed;
+  z-index: 0;
+ }

@@ -1,0 +1,38 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "page": {
+    "home": {
+      "title": "Our vision",
+      "vision1-title": "Empowering Success Through Innovation",
+      "vision1-description": "At Ready to Dev, our mission is to empower businesses to achieve their fullest potential through innovative IT consulting services. We believe that technology, when harnessed correctly, can be a game changer for companies of all sizes. Our goal is to provide strategic IT guidance, enabling our clients to navigate the complex world of technology with ease and confidence.",
+      "vision2-title": "Commitment to Excellence",
+      "vision2-description": "We are committed to delivering excellence in every aspect of our services. From the initial consultation to the implementation of IT solutions, our team is dedicated to ensuring that all your technology needs are met with the highest standards of quality. Our focus is on creating sustainable, long-term value for your business, helping you to not only meet but exceed your goals.",
+      "vision3-title": "Partnership and Collaboration",
+      "vision3-description": "Understanding that each business has unique challenges and opportunities, we emphasize a collaborative approach. We partner closely with our clients to understand their specific needs, goals, and the dynamics of their industry. This partnership enables us to tailor our consulting services to provide the most effective and efficient solutions.",
+      "vision4-title": "Innovation and Adaptation",
+      "vision4-description": "In a rapidly changing technological landscape, staying ahead of the curve is essential. We prioritize innovation and continuous learning to ensure our clients benefit from the latest advancements in IT. Our team is adept at adapting to new technologies and trends, ensuring that your business remains competitive and secure in the digital age.",
+      "vision5-title": "Your Success is Our Success",
+      "vision5-description": "Ultimately, our mission is to see our clients succeed. Your goals are our goals, and we strive to provide IT solutions that propel your business forward. Whether you're looking to improve operational efficiency, enhance cybersecurity, or drive digital transformation, Ready to Dev is here to guide you every step of the way.",
+      "final-copy": "Let us be your partner in navigating the future of technology. Together, we can achieve remarkable things.",
+      "cta": "Contact us"
+    },
+    "about": {
+      "title": "About",
+      "journey-title": "Our Journey",
+      "journey-description": "Our journey began few years ago, with a vision to create a consulting firm that prioritizes the needs and success of its clients above all else. From our humble beginnings, we have grown into a trusted advisor for businesses large and small, developing solutions that are not only effective but also sustainable and forward-thinking.",
+      "clients-title": "Our clients, our projects",
+      "clients-projects": "In the context of IT consultancy and business, the phrase 'our client's projects are our projects' embodies a philosophy of deep partnership and vested interest in the success of client initiatives. This approach highlights a commitment to aligning the consultancy's objectives, strategies, and operations closely with those of their clients, treating each project as if it were their own. Here’s a summary encapsulating this ethos:"
+    },
+    "blog": {
+      "title": "Blog"
+    },
+    "contact": {
+      "title": "Contact"
+    }
+  }
+}

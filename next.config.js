@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
+const createNextIntlPlugin = require('next-intl/plugin');
+const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
-    experimental: {
-        serverActions: true,
-    },
     images: {
         // limit of 25 deviceSizes values
         deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
@@ -35,4 +34,4 @@ const nextConfig = {
       },
 }
 
-module.exports = nextConfig
+module.exports = withNextIntl(nextConfig);
