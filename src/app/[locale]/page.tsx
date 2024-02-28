@@ -1,8 +1,5 @@
-"use client"
-
 import {useTranslations} from 'next-intl';
 import Image from 'next/image';
-import LanguageSwitcher from './components/languageSwitcher';
 
 
 export default function Home() {
@@ -20,7 +17,6 @@ export default function Home() {
         height="515"
       />
       <h1>{t('home.title')}</h1>
-      <LanguageSwitcher />
       <div className='relative aspect-w-16 aspect-h-9 rounded-lg px-56 py-20 bg-white text-stone-900 m-6 text-center align-top'>
         <h2>{t('home.vision1-title')}</h2>
         <p className='big pt-8 pb-12'>{t('home.vision1-description')}</p>
