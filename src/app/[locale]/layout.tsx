@@ -63,7 +63,7 @@ export default function RootLayout({
               - Content
               - CTA
             */}
-            <main className='text-center'>
+            <main>
               {children}
             </main>
             {/* 
