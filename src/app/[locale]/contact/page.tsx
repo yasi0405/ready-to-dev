@@ -1,6 +1,5 @@
 import {useTranslations} from 'next-intl';
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import EmailForm from '../components/emailForm';
 
 export default function Contact() {
 
@@ -8,11 +7,12 @@ export default function Contact() {
 
   return (
     <div>
-      <h1>Contact</h1>
+      <h1 className='text-left ml-16'>Contact</h1>
       
-      <div className='relative aspect-w-16 aspect-h-9 rounded-lg px-56 py-20 bg-white text-stone-900 m-6 text-center align-top'>
-        <h2>{t('about.journey-title')}</h2>
-        <p className='big pt-8 pb-12'>{t('about.journey-description')}</p>
+      <div className='relative aspect-w-16 aspect-h-9 rounded-lg px-12 py-12 bg-white text-stone-900 m-6 text-left align-top'>
+        <div className=" max-w-md rounded-lg">
+            <EmailForm />
+          </div>
       </div>
       
     </div>

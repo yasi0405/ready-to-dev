@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Sofia_Sans } from 'next/font/google'
-import { useSearchParams, useRouter } from 'next/navigation';
 
+import LanguageSwitcher from './components/languageSwitcher'
 import '../../../public/css/globals.css'
 import Link from 'next/link'
 
@@ -55,6 +55,7 @@ export default function RootLayout({
                 </ul>
               </nav>
               <div className='float-right px-10 py-7'>
+                <LanguageSwitcher></LanguageSwitcher>
               </div>
             </header>
             {/* 
