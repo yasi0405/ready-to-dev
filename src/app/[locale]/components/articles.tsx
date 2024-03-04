@@ -1,4 +1,5 @@
-// components/Article.tsx
+"use client"
+
 import { useState } from 'react';
 
 interface ArticleProps {
