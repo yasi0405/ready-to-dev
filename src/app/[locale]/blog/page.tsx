@@ -11,12 +11,12 @@ export default function Blog() {
       <div className='relative aspect-w-16 aspect-h-9 rounded-lg px-12 py-20 bg-white text-stone-900 m-6 text-left align-top'>
         <h2>{t('about.journey-title')}</h2>
         <p className='big pt-8 pb-12'>{t('about.journey-description')}</p>
-        {posts.map(post => (
+        {/*{posts.map(post => (
           <div key={post.id}>
             <h2>{post.title}</h2>
             <p>{post.content}</p>
           </div>
-        ))}
+        ))}*/}
       </div>
       
     </div>
