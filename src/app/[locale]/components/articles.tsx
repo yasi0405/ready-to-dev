@@ -17,7 +17,7 @@ const Article: React.FC<ArticleProps> = ({ title, content }) => {
         className="text-blue-500"
         onClick={() => setIsOpen(!isOpen)}
       >
-        {isOpen ? 'Réduire' : 'Lire la suite'}
+        {isOpen ? 'Less' : 'More'}
       </button>
       {isOpen && <p className="mt-2">{content}</p>}
     </div>

@@ -18,7 +18,7 @@ const LanguageSwitcher: FC = () => {
   };
 
   return (
-    <select id="langswitcher" defaultValue={pathname.substring(1)} onChange={handleRoute} className='rounded-md text-stone-900'>
+    <select id="langswitcher" defaultValue={pathname.substring(1,3)} onChange={handleRoute} className='rounded-md text-stone-900'>
       <option value="en">English</option>
       <option value="fr">Français</option>
       <option value="nl">Nederlands</option>

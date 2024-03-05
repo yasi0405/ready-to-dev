@@ -1,5 +1,6 @@
 import {useTranslations} from 'next-intl';
 import Image from 'next/image';
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -35,7 +36,7 @@ export default function Home() {
       </div>
       <div className='py-40'>
         <h3 className='font-thin text-4xl	'>{t('home.final-copy')}</h3>
-          <button>{t('home.cta')}</button>
+          <Link href="/contact">{t('home.cta')}</Link>
       </div>
     </div>
   )
