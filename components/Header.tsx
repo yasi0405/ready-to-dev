@@ -7,7 +7,7 @@ import {useTranslations} from 'next-intl';
 import {Link, usePathname} from '@/i18n/navigation';
 import {LanguageSwitcher} from '@/components/LanguageSwitcher';
 
-const homeAnchors = ['expertise', 'services', 'experience', 'contact'] as const;
+const homeAnchors = ['expertise', 'experience', 'services', 'contact'] as const;
 
 export function Header({locale}: {locale: string}) {
   const t = useTranslations('nav');
@@ -28,7 +28,7 @@ export function Header({locale}: {locale: string}) {
     <header className={`site-header${isScrolled ? ' is-scrolled' : ''}`}>
       <div className="container header-inner">
         <Link className="wordmark" href="/" locale={locale}>
-          <Image className="wordmark-image" src="/logo_dark.png" alt="Ready to Dev" width={843} height={194} priority />
+          <img src="/logo_dark.png" alt="Ready to Dev" width={843} height={194} />
         </Link>
 
         <nav className="header-nav" aria-label="Primary">

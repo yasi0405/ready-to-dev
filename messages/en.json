@@ -24,6 +24,7 @@
     },
     "experience": {
       "label": "Experience",
+      "years": "YEARS",
       "headline": "BUILDING CRITICAL PLATFORMS.",
       "body": "We operate in demanding environments: banking, fintech, trading, critical platforms and ambitious digital products.",
       "tags": ["banking", "trading", "fintech", "critical platforms"]

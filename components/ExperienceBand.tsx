@@ -3,7 +3,6 @@ import {getTranslations} from 'next-intl/server';
 export async function ExperienceBand({locale}: {locale: string}) {
   const t = await getTranslations({locale, namespace: 'home.experience'});
   const tags = t.raw('tags') as string[];
-  const logos = ['ING', 'KEYTRADE BANK'];
 
   return (
     <section className="experience-band" id="experience">
@@ -11,7 +10,7 @@ export async function ExperienceBand({locale}: {locale: string}) {
         <div>
           <p className="section-label">{t('label')}</p>
           <h2>
-            15+<br />YEARS
+            15+<br />{t('years')}
           </h2>
         </div>
         <div className="experience-statement">
@@ -21,13 +20,6 @@ export async function ExperienceBand({locale}: {locale: string}) {
           <p>{t('body')}</p>
         </div>
         <div className="experience-side">
-          <div className="experience-logos">
-            {logos.map((logo, index) => (
-              <span key={logo} className={index === 0 ? 'logo-ing' : 'logo-keytrade'}>
-                {logo}
-              </span>
-            ))}
-          </div>
           <div className="experience-tags">
             {tags.map((tag) => (
               <span key={tag}>#{tag}</span>

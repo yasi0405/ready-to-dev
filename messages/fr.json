@@ -12,11 +12,11 @@
   },
   "home": {
     "hero": {
-      "kicker": "Engineering editorial",
-      "lineOne": "BUILD",
-      "lineTwo": "DIGITAL",
-      "lineThree": "PRODUCTS.",
-      "headline": "Engineering for banking, fintech and ambitious products.",
+      "kicker": "PLATEFORMES CRITIQUES",
+      "lineOne": "CONCEVOIR",
+      "lineTwo": "DES PRODUITS",
+      "lineThree": "DIGITAUX.",
+      "headline": "Des plateformes robustes pour la banque, la fintech et les entreprises ambitieuses",
       "body": "Ready to Dev conçoit et développe des produits digitaux performants, évolutifs et sécurisés pour les équipes qui opèrent dans des environnements exigeants.",
       "primary": "Discuter d’un projet",
       "secondary": "Voir l’expertise",
@@ -24,7 +24,8 @@
     },
     "experience": {
       "label": "Experience",
-      "headline": "BUILDING CRITICAL PLATFORMS.",
+      "years": "ANS",
+      "headline": "CRÉER DES PRODUITS QUI DURENT.",
       "body": "Nous operons dans des environnements exigeants : banking, fintech, trading, plateformes critiques et produits digitaux.",
       "tags": ["banking", "trading", "fintech", "critical platforms"]
     },
@@ -63,7 +64,7 @@
     },
     "contact": {
       "label": "Contact",
-      "headline": "Let’s build something useful.",
+      "headline": "Créons un produit qui crée de la valeur",
       "body": "Parlons de votre projet, de ses contraintes et de la meilleure manière de créer de la valeur sans complexité gratuite.",
       "cta": "Discuter d’un projet"
     }
