@@ -16,12 +16,13 @@ export async function Footer({locale}: {locale: string}) {
           <a className="footer-email" href="mailto:yannick.simon@readytodev.be">
             yannick.simon@readytodev.be
           </a>
-          
+          <div>
+            <a href="tel:+32477971161" className="footer-email">
+              +32 477 97 11 61
+            </a>
+          </div>
         </div>
-
-        
       </div>
-
       <div className="container footer-bottom">
         <small>{t('copyright')}</small>
         <div>
