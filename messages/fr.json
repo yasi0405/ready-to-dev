@@ -5,8 +5,8 @@
     "experience": "Experience",
     "contact": "Contact",
     "expertiseIndex": "01",
-    "experienceIndex": "02",
-    "servicesIndex": "03",
+    "experienceIndex": "03",
+    "servicesIndex": "02",
     "contactIndex": "04",
     "cta": "Discuter d’un projet"
   },
@@ -42,7 +42,7 @@
     },
     "services": {
       "label": "Nos services",
-      "headline": "Un accompagnement produit de bout en bout.",
+      "headline": "Un accompagnement de bout en bout.",
       "body": "De l’idée à la mise en production, nous structurons, livrons et faisons évoluer des produits utiles, robustes et lisibles.",
       "items": [
         {"title": "Audit technique", "body": "Analyse approfondie de votre produit, de votre code et des risques qui freinent votre vitesse."},
@@ -96,9 +96,8 @@
   "notFound": {
     "label": "404",
     "title": "Cette page n’existe pas.",
-    "body": "Le contenu demandé est introuvable. Revenez à la landing ou explorez le blog.",
-    "home": "Retour à l’accueil",
-    "blog": "Voir le blog"
+    "body": "Le contenu demandé est introuvable. Revenez à la landing.",
+    "home": "Retour à l’accueil"
   },
   "footer": {
     "expertise": "Expertise",
@@ -111,7 +110,7 @@
     "follow": "Suivez-nous",
     "legal": "Mentions legales",
     "privacy": "Politique de confidentialite",
-    "tagline": "Digital products, critical platforms and modern engineering.",
+    "tagline": "Digital products & critical platforms",
     "copyright": "© 2026 Ready to Dev — Tous droits reserves.",
     "expertiseItems": ["Banking", "Trading", "Fintech", "Mobile", "Cloud", "AI Integration"],
     "servicesItems": ["Audit technique", "Architecture", "MVP", "Scaling", "Modernisation", "AI Integration"],

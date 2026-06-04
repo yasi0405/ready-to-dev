@@ -1,7 +1,7 @@
-import {Gauge, Handshake, ShieldCheck, Sparkles} from 'lucide-react';
+import {CheckCircle, Gauge, ShieldCheck, Users} from 'lucide-react';
 import {getTranslations} from 'next-intl/server';
 
-const icons = [ShieldCheck, Gauge, Sparkles, Handshake];
+const icons = [ShieldCheck, Gauge, CheckCircle, Users];
 
 export async function ValueIcons({locale}: {locale: string}) {
   const t = await getTranslations({locale, namespace: 'home.values'});

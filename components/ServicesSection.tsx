@@ -1,10 +1,9 @@
-import {ArrowRight, Boxes, CodeXml, Cpu, Rocket, Search, TrendingUp} from 'lucide-react';
+import {ArrowRight} from 'lucide-react';
 import {getTranslations} from 'next-intl/server';
 
 export async function ServicesSection({locale}: {locale: string}) {
   const t = await getTranslations({locale, namespace: 'home.services'});
   const items = t.raw('items') as Array<{title: string; body: string}>;
-  const icons = [Search, Boxes, Rocket, TrendingUp, CodeXml, Cpu];
 
   return (
     <section className="section section-services" id="services">
@@ -16,26 +15,18 @@ export async function ServicesSection({locale}: {locale: string}) {
         </div>
 
         <div className="service-list">
-          {items.map((item, index) => {
-            const Icon = icons[index];
-
-            return (
-              <article key={item.title} className="service-row">
-                <span className="service-accent" aria-hidden="true" />
-                <span className="service-icon">
-                  <Icon aria-hidden="true" size={28} strokeWidth={1.5} />
-                </span>
-                <span className="service-index">{String(index + 1).padStart(2, '0')}</span>
-                <div className="service-copy">
-                  <h3>{item.title}</h3>
-                  <p>{item.body}</p>
-                </div>
-                <span className="service-arrow" aria-hidden="true">
-                  <ArrowRight size={18} strokeWidth={1.7} />
-                </span>
-              </article>
-            );
-          })}
+          {items.map((item, index) => (
+            <article key={item.title} className="service-row">
+              <span className="service-index">{String(index + 1).padStart(2, '0')}</span>
+              <div className="service-copy">
+                <h3>{item.title}</h3>
+                <p>{item.body}</p>
+              </div>
+              <span className="service-arrow" aria-hidden="true">
+                <ArrowRight size={18} strokeWidth={1.7} />
+              </span>
+            </article>
+          ))}
         </div>
       </div>
     </section>

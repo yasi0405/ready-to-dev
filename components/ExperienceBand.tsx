@@ -16,6 +16,8 @@ export async function ExperienceBand({locale}: {locale: string}) {
         </div>
         <div className="experience-statement">
           <h3>{t('headline').replace('.', '')}</h3>
+        </div>
+        <div className="experience-copy">
           <p>{t('body')}</p>
         </div>
         <div className="experience-side">

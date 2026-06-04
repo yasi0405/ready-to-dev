@@ -17,10 +17,6 @@ export default async function NotFoundPage() {
             {t('home')}
             <ArrowRight aria-hidden="true" size={16} />
           </Link>
-          <Link className="button button-minimal" href="/blog" locale={locale}>
-            {t('blog')}
-            <ArrowRight aria-hidden="true" size={16} />
-          </Link>
         </div>
       </div>
     </section>

@@ -5,8 +5,8 @@
     "experience": "Experience",
     "contact": "Contact",
     "expertiseIndex": "01",
-    "experienceIndex": "02",
-    "servicesIndex": "03",
+    "experienceIndex": "03",
+    "servicesIndex": "02",
     "contactIndex": "04",
     "cta": "Discuss your project"
   },
@@ -96,9 +96,8 @@
   "notFound": {
     "label": "404",
     "title": "This page does not exist.",
-    "body": "The requested content could not be found. Return to the landing page or browse the blog.",
-    "home": "Back to home",
-    "blog": "Browse the blog"
+    "body": "The requested content could not be found. Return to the landing page.",
+    "home": "Back to home"
   },
   "footer": {
     "expertise": "Expertise",
@@ -111,7 +110,7 @@
     "follow": "Follow us",
     "legal": "Legal notice",
     "privacy": "Privacy policy",
-    "tagline": "Digital products, critical platforms and modern engineering.",
+    "tagline": "Digital products & critical platforms",
     "copyright": "© 2026 Ready to Dev — All rights reserved.",
     "expertiseItems": ["Banking", "Trading", "Fintech", "Mobile", "Cloud", "AI Integration"],
     "servicesItems": ["Technical audit", "Architecture", "MVP", "Scaling", "Modernization", "AI Integration"],
