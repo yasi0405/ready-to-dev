@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "expertise": "Expertise",
+    "services": "Services",
+    "experience": "Experience",
+    "contact": "Contact",
+    "expertiseIndex": "01",
+    "experienceIndex": "02",
+    "servicesIndex": "03",
+    "contactIndex": "04",
+    "cta": "Discuss your project"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Editorial engineering",
+      "lineOne": "BUILD",
+      "lineTwo": "DIGITAL",
+      "lineThree": "PRODUCTS.",
+      "headline": "Engineering for banking, fintech and ambitious products.",
+      "body": "Ready to Dev designs and builds high-performance, scalable and secure digital products for companies aiming further.",
+      "primary": "Discuss your project",
+      "secondary": "See expertise",
+      "scroll": "Scroll"
+    },
+    "experience": {
+      "label": "Experience",
+      "headline": "BUILDING CRITICAL PLATFORMS.",
+      "body": "We operate in demanding environments: banking, fintech, trading, critical platforms and ambitious digital products.",
+      "tags": ["banking", "trading", "fintech", "critical platforms"]
+    },
+    "expertise": {
+      "label": "Expertise",
+      "headline": "Complementary expertise designed for critical environments.",
+      "items": [
+        {"key": "banking", "title": "Banking", "body": "Robust, secure and compliant banking platforms built for long-term reliability."},
+        {"key": "trading", "title": "Trading", "body": "Real-time, high-performance systems for latency-sensitive trading workflows."},
+        {"key": "fintech", "title": "Fintech", "body": "Modern financial products spanning user journeys, workflows and core capabilities."},
+        {"key": "mobile", "title": "Mobile", "body": "Native mobile experiences that feel fast, clear and product-driven."},
+        {"key": "cloud", "title": "Cloud", "body": "Scalable, modern and resilient cloud architectures without unnecessary complexity."},
+        {"key": "ai", "title": "AI Integration", "body": "Practical AI integration across workflows, internal tooling and customer products."}
+      ]
+    },
+    "services": {
+      "label": "Our services",
+      "headline": "End-to-end product support.",
+      "body": "From first framing to production, we help teams ship products that stay useful, robust and maintainable.",
+      "items": [
+        {"title": "Technical audit", "body": "Deep review of your product, codebase and architecture to expose leverage and risk."},
+        {"title": "Architecture", "body": "Architecture design for robust, scalable and secure systems with clear tradeoffs."},
+        {"title": "MVP", "body": "Fast MVP delivery that helps validate direction without creating structural debt."},
+        {"title": "Scaling", "body": "Focused work on scale, performance and resilience as complexity and traffic increase."},
+        {"title": "Modernization", "body": "Progressive modernization of existing products without freezing delivery."},
+        {"title": "AI Integration", "body": "Generative AI, automation and copilots integrated where they create measurable operational value."}
+      ]
+    },
+    "values": {
+      "items": [
+        {"title": "Security", "body": "Secure solutions aligned with demanding standards."},
+        {"title": "Performance", "body": "Architectures designed for scale and sustained performance."},
+        {"title": "Reliability", "body": "Systems built for critical and failure-sensitive contexts."},
+        {"title": "Partnership", "body": "Transparent collaboration focused on measurable outcomes."}
+      ]
+    },
+    "contact": {
+      "label": "Contact",
+      "headline": "Let’s build something useful.",
+      "body": "Let’s discuss your product, its constraints and where engineering can create durable value without noise.",
+      "cta": "Discuss your project"
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Ready to Dev Blog",
+    "metaDescription": "Ideas, field notes and technical analysis for banking, fintech and product engineering.",
+    "label": "The blog",
+    "headline": "Ideas, field notes and technical analysis.",
+    "body": "Concrete content to unpack today’s product, technology and business challenges in finance-driven companies.",
+    "featured": "Featured",
+    "read": "Read the article",
+    "search": "Search an article",
+    "newsletterLabel": "Stay informed",
+    "newsletterHeadline": "Receive our latest articles and analysis.",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterCta": "Subscribe",
+    "categories": {
+      "all": "All",
+      "architecture": "Architecture",
+      "fintech": "Fintech",
+      "engineering": "Engineering",
+      "product": "Product",
+      "security": "Security"
+    }
+  },
+  "blogArticle": {
+    "back": "Back to the blog"
+  },
+  "notFound": {
+    "label": "404",
+    "title": "This page does not exist.",
+    "body": "The requested content could not be found. Return to the landing page or browse the blog.",
+    "home": "Back to home",
+    "blog": "Browse the blog"
+  },
+  "footer": {
+    "expertise": "Expertise",
+    "services": "Services",
+    "about": "About",
+    "resources": "Resources",
+    "blog": "Blog",
+    "articles": "Articles",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "tagline": "Digital products, critical platforms and modern engineering.",
+    "copyright": "© 2026 Ready to Dev — All rights reserved.",
+    "expertiseItems": ["Banking", "Trading", "Fintech", "Mobile", "Cloud", "AI Integration"],
+    "servicesItems": ["Technical audit", "Architecture", "MVP", "Scaling", "Modernization", "AI Integration"],
+    "aboutItems": ["Our approach", "Team", "Careers"]
+  }
+}

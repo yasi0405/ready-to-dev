@@ -1,0 +1,120 @@
+{
+  "nav": {
+    "expertise": "Expertise",
+    "services": "Services",
+    "experience": "Experience",
+    "contact": "Contact",
+    "expertiseIndex": "01",
+    "experienceIndex": "02",
+    "servicesIndex": "03",
+    "contactIndex": "04",
+    "cta": "Discuter d’un projet"
+  },
+  "home": {
+    "hero": {
+      "kicker": "Engineering editorial",
+      "lineOne": "BUILD",
+      "lineTwo": "DIGITAL",
+      "lineThree": "PRODUCTS.",
+      "headline": "Engineering for banking, fintech and ambitious products.",
+      "body": "Ready to Dev conçoit et développe des produits digitaux performants, évolutifs et sécurisés pour les équipes qui opèrent dans des environnements exigeants.",
+      "primary": "Discuter d’un projet",
+      "secondary": "Voir l’expertise",
+      "scroll": "Scroll"
+    },
+    "experience": {
+      "label": "Experience",
+      "headline": "BUILDING CRITICAL PLATFORMS.",
+      "body": "Nous operons dans des environnements exigeants : banking, fintech, trading, plateformes critiques et produits digitaux.",
+      "tags": ["banking", "trading", "fintech", "critical platforms"]
+    },
+    "expertise": {
+      "label": "Expertise",
+      "headline": "Des expertises complémentaires pensées pour les contextes critiques.",
+      "items": [
+        {"key": "banking", "title": "Banking", "body": "Plateformes bancaires robustes, sécurisées et conformes, conçues pour durer."},
+        {"key": "trading", "title": "Trading", "body": "Systèmes temps réel et haute performance pour des usages sensibles à la latence."},
+        {"key": "fintech", "title": "Fintech", "body": "Produits financiers nouveaux usages, du parcours client aux moteurs métier."},
+        {"key": "mobile", "title": "Mobile", "body": "Expériences mobiles natives fluides, rapides et alignées avec le produit."},
+        {"key": "cloud", "title": "Cloud", "body": "Architectures cloud modernes, scalables et résilientes sans dette inutile."},
+        {"key": "ai", "title": "AI Integration", "body": "Intégration pragmatique de l’IA dans vos workflows, outils et produits."}
+      ]
+    },
+    "services": {
+      "label": "Nos services",
+      "headline": "Un accompagnement produit de bout en bout.",
+      "body": "De l’idée à la mise en production, nous structurons, livrons et faisons évoluer des produits utiles, robustes et lisibles.",
+      "items": [
+        {"title": "Audit technique", "body": "Analyse approfondie de votre produit, de votre code et des risques qui freinent votre vitesse."},
+        {"title": "Architecture", "body": "Conception d’architectures robustes, évolutives et sécurisées avec des choix défendables."},
+        {"title": "MVP", "body": "Développement rapide de MVP crédibles pour apprendre vite sans sacrifier la qualité structurelle."},
+        {"title": "Scaling", "body": "Travail ciblé sur la performance, la résilience et la capacité d’absorber la croissance."},
+        {"title": "Modernisation", "body": "Refonte progressive de produits existants sans bloquer le delivery ni l’activité."},
+        {"title": "AI Integration", "body": "IA générative, automatisation et copilots intégrés là où ils créent un vrai gain opérationnel."}
+      ]
+    },
+    "values": {
+      "items": [
+        {"title": "Securite", "body": "Des solutions securisees et conformes aux plus hauts standards."},
+        {"title": "Performance", "body": "Des architectures pensees pour la performance et la scalabilite."},
+        {"title": "Fiabilite", "body": "Des systemes robustes concus pour des contextes critiques."},
+        {"title": "Partenariat", "body": "Une collaboration transparente, engagee et orientee resultats."}
+      ]
+    },
+    "contact": {
+      "label": "Contact",
+      "headline": "Let’s build something useful.",
+      "body": "Parlons de votre projet, de ses contraintes et de la meilleure manière de créer de la valeur sans complexité gratuite.",
+      "cta": "Discuter d’un projet"
+    }
+  },
+  "blogPage": {
+    "metaTitle": "Blog Ready to Dev",
+    "metaDescription": "Idees, retours d’experience et analyses techniques pour la banque, la fintech et l’engineering produit.",
+    "label": "Le blog",
+    "headline": "Idees, retours d’experience et analyses techniques.",
+    "body": "Des contenus concrets pour comprendre les enjeux tech, produit et metier des entreprises financieres d’aujourd’hui.",
+    "featured": "A la une",
+    "read": "Lire l’article",
+    "search": "Rechercher un article",
+    "newsletterLabel": "Restez informe",
+    "newsletterHeadline": "Recevez nos derniers articles et analyses.",
+    "newsletterPlaceholder": "Votre adresse e-mail",
+    "newsletterCta": "S’abonner",
+    "categories": {
+      "all": "Tous",
+      "architecture": "Architecture",
+      "fintech": "Fintech",
+      "engineering": "Engineering",
+      "product": "Produit",
+      "security": "Securite"
+    }
+  },
+  "blogArticle": {
+    "back": "Retour au blog"
+  },
+  "notFound": {
+    "label": "404",
+    "title": "Cette page n’existe pas.",
+    "body": "Le contenu demandé est introuvable. Revenez à la landing ou explorez le blog.",
+    "home": "Retour à l’accueil",
+    "blog": "Voir le blog"
+  },
+  "footer": {
+    "expertise": "Expertise",
+    "services": "Services",
+    "about": "A propos",
+    "resources": "Ressources",
+    "blog": "Blog",
+    "articles": "Articles",
+    "contact": "Contact",
+    "follow": "Suivez-nous",
+    "legal": "Mentions legales",
+    "privacy": "Politique de confidentialite",
+    "tagline": "Digital products, critical platforms and modern engineering.",
+    "copyright": "© 2026 Ready to Dev — Tous droits reserves.",
+    "expertiseItems": ["Banking", "Trading", "Fintech", "Mobile", "Cloud", "AI Integration"],
+    "servicesItems": ["Audit technique", "Architecture", "MVP", "Scaling", "Modernisation", "AI Integration"],
+    "aboutItems": ["Notre approche", "Equipe", "Carrieres"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ready-to-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ready to Dev marketing site with bilingual MDX blog.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nextjs",
+    "marketing-site",
+    "blog",
+    "i18n"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource/plus-jakarta-sans": "^5.2.8",
+    "@mdx-js/react": "^3.1.1",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.7",
+    "next-intl": "^4.13.0",
+    "next-mdx-remote": "^6.0.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "reading-time": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.16",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.7",
+    "typescript": "^6.0.3"
+  }
+}
