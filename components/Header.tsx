@@ -28,7 +28,7 @@ export function Header({locale}: {locale: string}) {
     <header className={`site-header${isScrolled ? ' is-scrolled' : ''}`}>
       <div className="container header-inner">
         <Link className="wordmark" href="/" locale={locale}>
-          <img src="/logo_dark.png" alt="Ready to Dev" width={843} height={194} />
+          <Image src="/logo_dark.png" alt="Ready to Dev" width={843} height={194} />
         </Link>
 
         <nav className="header-nav" aria-label="Primary">

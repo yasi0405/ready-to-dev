@@ -1,11 +1,14 @@
-import {ArrowUpRight, FolderGit2, Mail} from 'lucide-react';
-import Image from 'next/image';
-import {getTranslations} from 'next-intl/server';
+'use client';
 
-export async function Footer({locale}: {locale: string}) {
-  const t = await getTranslations({locale, namespace: 'footer'});
-  const columns = [
-  ];
+import Image from 'next/image';
+import {useLocale, useTranslations} from 'next-intl';
+import {useState} from 'react';
+import {LegalDialog, type LegalDialogKind} from '@/components/LegalDialog';
+
+export function Footer() {
+  const t = useTranslations('footer');
+  const locale = useLocale();
+  const [openDialog, setOpenDialog] = useState<LegalDialogKind | null>(null);
 
   return (
     <footer className="site-footer">
@@ -26,10 +29,15 @@ export async function Footer({locale}: {locale: string}) {
       <div className="container footer-bottom">
         <small>{t('copyright')}</small>
         <div>
-          <a href="#">{t('legal')}</a>
-          <a href="#">{t('privacy')}</a>
+          <button type="button" className="footer-link-button" onClick={() => setOpenDialog('legal')}>
+            {t('legal')}
+          </button>
+          <button type="button" className="footer-link-button" onClick={() => setOpenDialog('privacy')}>
+            {t('privacy')}
+          </button>
         </div>
       </div>
+      <LegalDialog kind={openDialog} locale={locale} onClose={() => setOpenDialog(null)} />
     </footer>
   );
 }
